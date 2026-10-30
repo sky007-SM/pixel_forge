@@ -119,6 +119,3 @@ Games are scenes: implement `steps()` (build assets), `update(dt, inp)`, `draw(r
 
 ## Status
 The console offers smooth gameplay for all four games and has been extensively playtested.
-
-## License
-Add your license here.
