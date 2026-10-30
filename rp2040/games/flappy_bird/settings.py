@@ -1,0 +1,27 @@
+# Flappy Bird tuning (physics numbers are per second; dt is fixed at 1/30)
+BIRD_X = 80
+BIRD_RADIUS = 10
+GROUND_Y = 200
+GRAVITY = 420.0
+FLAP_VELOCITY = -175.0
+PIPE_WIDTH = 48
+PIPE_GAP = 82
+PIPE_SPEED = 65.0
+GAP_MIN = 85
+GAP_MAX = 145
+START_Y = 120
+DEATH_LOCKOUT = 14          # frames before A restarts after dying
+
+# RGB565 colours
+SKY = 0x5DDF
+WHITE = 0xFFFF
+BLACK = 0x0000
+NAVY = 0x18C3
+YELLOW = 0xFFE0
+ORANGE = 0xFC00
+GREEN = 0x07E0
+DARKGREEN = 0x0320
+LIGHTGREEN = 0x87F0
+SOIL = 0xA145
+SAND = 0xE6C2
+TRIM = 0xF7A0
